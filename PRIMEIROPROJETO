@@ -1,0 +1,15 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int paulo;
+    int jose;
+    int multiplicação;
+    paulo = -54;
+    jose = 24;
+    multiplicação = paulo * jose;
+    printf("O valor de paulo é %d. \n", paulo);
+    printf("O valor de josé é %d. \n", jose);
+    printf("A multiplicação dos dois números é %d.", multiplicação);
+    return 0;
+}
