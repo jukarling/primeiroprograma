@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+   int numero = 5;
+   int chute;
+   printf("Digite um número: ");
+   scanf("%d" , &chute);
+   
+   if(chute == numero){
+       printf(" Parabéns, você acertou :) \n");
+   }else{
+       printf("Que pena, você errou :( \n");
+   }
+   printf(" O número era %d.", numero);
+   
+    return 0;
+}
